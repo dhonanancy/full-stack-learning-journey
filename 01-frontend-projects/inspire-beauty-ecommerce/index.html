@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insired Beauty - Beauty Essentials</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9e4d2;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to bottom, #97715a, #fbe6d6);
+      padding: 30px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-size: cover;
+      color: rgb(15, 14, 14);
+      padding: 100px 30px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero img{
+      float:right;
+    }
+    .hero p {
+      font-size: 20px;
+    }
+    .featured{
+      font-size:20px ;
+      padding: 10px;
+      margin: 5px;
+       object-fit: cover;
+      background-color: #f0dbd6c8;
+      border: 5px bold black;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 40px;
+      background: #e0c0af;
+    }
+    .product {
+      background: #f7e1d3;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .why-choose-us {
+      display: flex;
+      align-items: center;
+      padding: 50px;
+      background: #fff9f4;
+    }
+    .why-choose-us img {
+      width: 40%;
+      border-radius: 10px;
+      margin-right: 30px;
+    }
+    .why-choose-us div {
+      max-width: 60%;
+    }
+    .contact {
+      background: #f6eae2;
+      padding: 40px;
+      text-align: center;
+    }
+    footer {
+      background: #422d26;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .btn {
+      background: #ff8e6f;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#why">Why Choose Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="./background.png" />
+    <h1>Inspire Beauty : Where Beauty Begins</h1>
+    <p>Uncover radiant skincare secrets with our luxurious and natural products.</p>
+  </section>
+  <section class="featured">
+    <div>
+      <h2>✨Featured Product✨</h2>
+    </div>
+  </section>
+  <section id="products" class="product-grid">
+    <div class="product">
+      <img src="./product images/foundation.png" alt="Product 1">
+      <h3>Foundation</h3>
+      <p>₹340</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/concealer.png" alt="Product 2">
+      <h3>Concealer</h3>
+      <p>₹290</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/powder.png" alt="Product 3">
+      <h3>Compact Powder</h3>
+      <p>₹220</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/blush.png" alt="Product 4">
+      <h3>Blush</h3>
+      <p>₹190</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/highlighter.png" alt="Product 5">
+      <h3>Highlighter</h3>
+      <p>₹350</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/primer.png" alt="Product 6">
+      <h3>Primer</h3>
+      <p>₹280</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/bb cream.png" alt="Product 7">
+      <h3>BB Cream</h3>
+      <p>₹267</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/sunscreen.png" alt="Product 8">
+      <h3>Sunscreen</h3>
+      <p>₹450</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/eyecream.png" alt="Product 9">
+      <h3>Eye Cream</h3>
+      <p>₹375</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/ricewater.png" alt="Product 10">
+      <h3>Rice Water Cleanser</h3>
+      <p>₹410</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/ferment cream.png" alt="Product 11">
+      <h3>Ferment Cream</h3>
+      <p>₹490</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/serum.png" alt="Product 12">
+      <h3>Glow Serum</h3>
+      <p>₹283</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/eyeshadow.png" alt="Product 13">
+      <h3>Eye Shadow</h3>
+      <p>₹200</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/eyeliner.png" alt="Product 14">
+      <h3>Eye liner</h3>
+      <p>₹110</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/mascara.png" alt="Product 15">
+      <h3>Mascara</h3>
+      <p>₹170</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="product">
+      <img src="./product images/kajal.png" alt="Product 16">
+      <h3>Kajal</h3>
+      <p>₹150
+      </p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    
+  </section>
+
+  <section id="why" class="why-choose-us">
+    <img src="./footer.png" alt="Lady Using Products">
+    <div>
+      <h2>Why Choose Insired Beauty ?</h2>
+      <p>
+        Our carefully curated skincare line is crafted from nature's best ingredients and developed with dermatologists
+        to ensure glowing, healthy skin. Experience the perfect blend of science and nature.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@insiredbeauty.com</p>
+    <p>Phone: 9677997596 </p>
+    <p>Address: 123 Beauty Street, Chennai, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Insired Beauty. All rights reserved.</p>
+  </footer>
+</body>
+</html>
